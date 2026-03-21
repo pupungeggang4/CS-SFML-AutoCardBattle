@@ -9,6 +9,8 @@ namespace SfmlExample
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(1);
+
             // 1. Create the Window
             RenderWindow window = new RenderWindow(new VideoMode((800, 600)), "SFML.Net Example");
             window.Closed += (sender, e) => window.Close();
